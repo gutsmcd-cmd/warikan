@@ -36,7 +36,7 @@ const ja = {
 };
 export type Dict = typeof ja;
 const en: Dict = {
-  app: 'Warikan',
+  app: 'Split Bill',
   amount: 'Total bill',
   people: 'People',
   personUnit: '',
@@ -64,7 +64,7 @@ const en: Dict = {
   currency: 'Currency',
   reset: 'Clear',
   splitN: (n: number) => `Split ${n} ways`,
-  textHead: '[Warikan]',
+  textHead: '[Split Bill]',
   diffLine: (c: string, d: string) => `(collected ${c} / diff ${d})`,
   enterAmount: 'Enter the bill amount',
   privacy: 'Input is stored only on this device. Free, no ads, no login, no network.',
